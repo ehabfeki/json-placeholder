@@ -1,6 +1,6 @@
 # json-placeholder
 
-[![Build Status](http://13.38.238.4:8080/buildStatus/icon?job=json-placeholder)](http://13.38.238.4:8080/job/json-placeholder/)
+[![Build Status](http://13.39.19.12:8080/buildStatus/icon?job=json-placeholder)](http://13.39.19.12:8080/job/json-placeholder/)
 
 <!-- Automation Expert Live Coding Test
 
