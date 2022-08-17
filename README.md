@@ -1,5 +1,7 @@
 # json-placeholder
 
+[![Build Status](http://13.38.238.4:8080/buildStatus/icon?job=json-placeholder)](http://13.38.238.4:8080/job/json-placeholder/)
+
 <!-- Automation Expert Live Coding Test
 
 As an Automation Expert you will be responsible of a various tasks in the QA automation development life cycle, as: 
