@@ -9,10 +9,7 @@ describe('Placeholder', () => {
 
     const apiCall = await (await request(app).get(commentsEndpoint)).text;
 
-    const browser = await puppeteer.launch({
-      headless: true,
-      defaultViewport: null,
-    });
+    const browser = await puppeteer.launch();
 
     const page = await browser.newPage();
 
