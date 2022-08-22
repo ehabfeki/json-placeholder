@@ -1,14 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('install') {
-            steps {
-                sh 'npm i'
-            }
-        }
         stage('test') {
             steps {
-                sh 'npm run test'
+                sh 'docker build -t puppeteer-chrome-linux .'
+                sh ' docker run -i --init --rm --cap-add=SYS_ADMIN --name puppeteer-chrome puppeteer-chrome-linux node -e "`npm test`"'
             }
         }
     }
